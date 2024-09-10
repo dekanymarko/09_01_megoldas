@@ -1,0 +1,16 @@
+Console.Write("víz hőmérséklet ");
+int homerseklet = int.Parse(Console.ReadLine());
+
+// Halmazállapot meghatározása
+if (homerseklet < 0)
+{
+    Console.WriteLine("szilárd.");
+}
+else if (homerseklet <= 100)
+{
+    Console.WriteLine("folyadék");
+}
+else
+{
+    Console.WriteLine("gáz");
+}
