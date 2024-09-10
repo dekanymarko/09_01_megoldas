@@ -1,0 +1,14 @@
+Console.WriteLine("intervalum eleje: ");
+int eleje=int.Parse(Console.ReadLine());
+Console.WriteLine("intervalum vége: ");
+int vege=int.Parse(Console.ReadLine());
+
+
+if (eleje > vege)
+{
+    Console.WriteLine("Az intervallum hibásan van megadva");
+}
+else if (eleje < vege)
+{
+    Console.WriteLine("jó az intervallum");
+}
