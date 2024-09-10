@@ -1,0 +1,14 @@
+Console.Write("Kérem az összes helyek számát: ");
+int osszesHely = int.Parse(Console.ReadLine());
+
+Console.Write("Kérem a foglalt helyek számát: ");
+int foglaltHely = int.Parse(Console.ReadLine());
+
+if (foglaltHely > osszesHely)
+{
+    Console.WriteLine("Helytelen értékmegadás. A foglalt helyek száma nem lehet több, mint az összes helyek száma!");
+}
+else
+{
+    Console.WriteLine($"Összes hely: {osszesHely}, Foglalt helyek: {foglaltHely}");
+}
