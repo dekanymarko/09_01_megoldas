@@ -1,0 +1,17 @@
+Console.WriteLine("Megoldom az a*x + b = 0 egyenletet!");
+
+Console.Write("A érték ");
+double a = double.Parse(Console.ReadLine());
+
+Console.Write("B érték: ");
+double b = double.Parse(Console.ReadLine());
+
+if (a == 0)
+{
+    Console.WriteLine("Nincs megoldás");
+}
+else
+{
+    double x = -b / a;
+    Console.WriteLine($"megoldás: {x}");
+}
