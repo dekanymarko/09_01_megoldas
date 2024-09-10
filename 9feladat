@@ -1,0 +1,28 @@
+        Console.Write("diák átlag: ");
+        double atlag = double.Parse(Console.ReadLine());
+
+        if (atlag == 5.00)
+        {
+            Console.WriteLine("ötös");
+        }
+        else if (atlag >= 4.50 && atlag < 5.00)
+        {
+            Console.WriteLine("négyes");
+        }
+        else if (atlag >= 3.50 && atlag < 4.50)
+        {
+            Console.WriteLine("hármas");
+        }
+        else if (atlag >= 2.50 && atlag < 3.50)
+        {
+            Console.WriteLine("kettes");
+        }
+        else if (atlag >= 0 && atlag < 2.50)
+        {
+            Console.WriteLine("egyes");
+        }
+        else
+        {
+            Console.WriteLine("1 és 5 között kérek átlagot");
+        }
+ 
