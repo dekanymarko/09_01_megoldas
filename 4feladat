@@ -1,0 +1,23 @@
+Console.WriteLine("1. oldal hossz(cm): ");
+int elsooldal = int.Parse(Console.ReadLine());
+Console.WriteLine("2. oldal hossz(cm): ");
+int masodikoldal = int.Parse(Console.ReadLine());
+Console.WriteLine("3. oldal hossz(cm): ");
+int harmadikoldal = int.Parse(Console.ReadLine());
+
+if (elsooldal + masodikoldal >= harmadikoldal)
+{
+    Console.WriteLine("szerkeszthető");
+}
+else if (elsooldal + harmadikoldal >= masodikoldal)
+{
+    Console.WriteLine("szerkesztető");
+}
+else if (masodikoldal + harmadikoldal >= elsooldal)
+{
+    Console.WriteLine("szerkeszthető");
+}
+else
+{
+    Console.WriteLine("Háromszög szerkeszthető, ha bármely két oldalának összege nagyobb vagy egyenlő a harmadik oldalnál!");
+}
